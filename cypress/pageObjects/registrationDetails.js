@@ -12,7 +12,7 @@
    }
 openURL()
 {
-    cy.visit(Cypress.env('URL'))
+    cy.visit(Cypress.env('register'))
 }
 enterFirstName(somename)
 {
