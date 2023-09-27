@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/e2e/tests/registration.cy.js --browser chrome",
+    "testsecond": "npx cypress run --spec cypress/e2e/tests/addToCart.cy.js --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedAmeerkhan/Cypress-E2E.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "test",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedAmeerkhan/Cypress-E2E/issues"
+  },
+  "homepage": "https://github.com/MohamedAmeerkhan/Cypress-E2E#readme",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-mochawesome-reporter": "^3.6.0"
+  }
+}
